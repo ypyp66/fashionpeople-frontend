@@ -1,0 +1,35 @@
+nav {
+  padding: 20px;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
+  }
+ul{
+  display: flex;
+  list-style: none;
+}
+ul li{
+  margin-right: 10px;
+}
